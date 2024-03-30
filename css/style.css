@@ -1,0 +1,336 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.master{
+    width: 100%;
+
+}
+
+.header{
+width: 100%;
+background-color: white;
+
+}
+
+.left{
+    width: 33%;
+    float: left;
+    text-align: left;
+
+}
+
+.center{
+    width: 33%;
+    float: left;
+    text-align: center;
+
+}
+
+.right{
+    width: 33%;
+    float: left;
+    text-align: right;
+
+}
+
+.left a{
+    color: rgb(219, 217, 217);
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 26px;
+
+}
+
+.center a{
+    color: #f6755e;
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+.right button{
+    width: 100px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    border: 1px rgb(219, 217, 217) solid;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: #fff;
+
+}
+
+
+/*Banners starts from here*/
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/banner.jpg);
+    clear: both;
+    background-size: cover;
+    background-repeat: center top;
+
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+ 
+.text h1{
+    color: #25a2c3;
+    font-size: 40;
+
+}
+
+.text p{
+    line-height: 25px;
+    font-weight: 100;
+    color: gray;
+
+}
+
+.text button{
+    color: #fff;
+    background-color: #f6755e;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+
+}
+
+
+/* phones layout starts from here*/
+
+
+.phone{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 45px;
+
+}
+
+.lleft{
+    width: 33%;
+    float: left;
+    text-align: right;
+
+}
+
+.ccenter{
+    width: 33%;
+    float: left;
+
+}
+
+.rright{
+    width: 33%;
+    float: left;
+    text-align: left;
+
+}
+
+ .lleft h3{
+    color: #25a2c3;
+    font-size: larger;
+    margin-top: 65px;
+
+ }
+
+ .lleft p{
+    color: gray;
+    font-size: 15;
+    font-weight: 100;
+    line-height: 22px;
+    margin-bottom: 60px;
+
+ }
+
+ .ccenter img{
+    width: 70%;
+    border-radius: 100%;
+    margin: 69px;
+
+ }
+
+ .rright h3{
+    color: #25a2c3;
+    font-size: larger;
+    margin-top: 65px;
+
+ }
+
+ .rright p{
+    color: gray;
+    font-size: 15;
+    font-weight: 100;
+    line-height: 22px;
+    margin-bottom: 60px;
+
+ }
+
+
+ /*orange background starts from here*/
+
+
+ .orange{
+    width: 100%;
+    background-color: #f6755e;
+    clear: both;
+    height: 300px;
+
+ }
+
+ .ttext{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+ }
+
+ .ttext h1{
+    color: #fff;
+    font-size: 25;
+
+ }
+
+.ttext p{
+    color: rgb(233, 229, 229);
+    font-family: "Pacifico", cursive;
+    font-size: 11;
+    line-height: 19px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+
+.ttext h2{
+    color: #fff;
+    font-size: 14;
+    position: relative;
+    top: 9px;
+
+ }
+
+ .photos{
+    width: 70%;
+    margin: 0 auto;
+
+ }
+
+.one{
+    width: 25%;
+    float: left;
+    margin: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.two{
+    width: 25%;
+    float: left;
+    margin: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.three{
+    width: 25%;
+    float: left;
+    margin: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.photos img{
+    width: 100%;
+
+}
+
+.photos h3{
+    color: #25a2c3;
+    padding: 0px 10px;
+
+}
+
+.photos p{
+    color: gray;
+    padding:  0px 15px;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+
+
+/* media queries starts from here*/
+
+
+@media only screen and (max-width:1000px){
+
+    .one{
+        width: 80%;
+        clear: both;
+
+    }
+        .two{
+        width: 80%;
+        clear: both;
+
+    }
+        .three{
+        width: 80%;
+        clear: both;
+
+    }
+
+    
+}
+
+@media only screen and (max-width:650px){
+
+    .lleft{
+        width: 100%;
+        clear: both;
+        text-align: center;
+
+    }
+
+    .ccenter{
+        width: 100%;
+        clear: both;
+
+    }
+
+    .rright{
+        width: 100%;
+        clear: both;
+        text-align: center;
+
+    }
+
+
+}
